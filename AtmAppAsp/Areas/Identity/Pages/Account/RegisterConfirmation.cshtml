@@ -1,0 +1,26 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+<h1>@ViewData["Title"]</h1>
+@{
+    if (@Model.DisplayConfirmAccountLink)
+    {
+<p>
+            You Received an email on Your MailTrap Inbox heres the link :
+
+            <a href="">https://mailtrap.io/inboxes/2024231/messages/3200024619</a>
+            
+
+</p>
+    }
+    else
+    {
+<p>
+        Please check your email to confirm your account.
+</p>
+    }
+}
+
