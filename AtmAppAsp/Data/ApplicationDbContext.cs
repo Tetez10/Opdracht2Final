@@ -42,6 +42,8 @@ namespace AtmAppAsp.Data
                 SecurityStamp = Guid.NewGuid().ToString(),
             };
 
+
+
             var passwordHasher = new PasswordHasher<IdentityUser>();
             user1.PasswordHash = passwordHasher.HashPassword(user1, "User8-123");
             admin1.PasswordHash = passwordHasher.HashPassword(admin1, "Admin-123");
