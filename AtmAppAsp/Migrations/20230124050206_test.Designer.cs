@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AtmAppAsp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230124042908_test")]
+    [Migration("20230124050206_test")]
     partial class test
     {
         /// <inheritdoc />
@@ -162,15 +162,15 @@ namespace AtmAppAsp.Migrations
                         {
                             Id = "7f9d962a-59f5-44d0-a73e-297314544d91",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "30725fda-5d43-408c-98fe-ec64b9aaf58b",
+                            ConcurrencyStamp = "7406782a-739e-4739-8522-c8cf9c3c1022",
                             Email = "user8@test.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER8@TEST.COM",
                             NormalizedUserName = "USER8@TEST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBboT8Ku9vLtG3GBGC/FArYdSCbgTy7npX74zHE1HMvE8X6A9eyFeyoCE7ZIr/0AKA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAYpQQUA84L6+E6IekDdsK+PiosekESsRbZLzb+2Hpyr+YGKGV2A7RxzZ0vVhfl2nA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "55ff032f-60f0-4087-ac5c-c640982c64cb",
+                            SecurityStamp = "2087cdde-49d9-4b44-85bf-2516940f5634",
                             TwoFactorEnabled = false,
                             UserName = "user8@test.com"
                         },
@@ -178,15 +178,15 @@ namespace AtmAppAsp.Migrations
                         {
                             Id = "87de95a5-c410-4c44-9cde-d76d58c20759",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b051f345-3013-4e91-b062-00763f09a2fe",
+                            ConcurrencyStamp = "3ee287c3-cdd6-4737-b320-ce0e3b658bd4",
                             Email = "Admin@Admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "ADMIN@ADMIN.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJMmJDpQ5SuNs71QcVA57IyHs1JrYVNl/4QBeWVdzf7KqVf4Xs1nH4npqeRexNu82g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEN34JHgkUKkpwU/+I3Fn9UISiAiYrtn4vzsAAGRfyRh06ny+jzw4aDgb5skfigBsqQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c03c55fd-81cc-4286-a31f-9efdfa998752",
+                            SecurityStamp = "ebcd0de2-c644-41db-b0a6-d777df9a9fc2",
                             TwoFactorEnabled = false,
                             UserName = "Admin@Admin.com"
                         });

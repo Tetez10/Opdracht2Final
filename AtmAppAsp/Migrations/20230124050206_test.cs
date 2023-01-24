@@ -172,8 +172,8 @@ namespace AtmAppAsp.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "7f9d962a-59f5-44d0-a73e-297314544d91", 0, "30725fda-5d43-408c-98fe-ec64b9aaf58b", "user8@test.com", true, false, null, "USER8@TEST.COM", "USER8@TEST.COM", "AQAAAAIAAYagAAAAEBboT8Ku9vLtG3GBGC/FArYdSCbgTy7npX74zHE1HMvE8X6A9eyFeyoCE7ZIr/0AKA==", null, false, "55ff032f-60f0-4087-ac5c-c640982c64cb", false, "user8@test.com" },
-                    { "87de95a5-c410-4c44-9cde-d76d58c20759", 0, "b051f345-3013-4e91-b062-00763f09a2fe", "Admin@Admin.com", true, false, null, "ADMIN@ADMIN.COM", "ADMIN@ADMIN.COM", "AQAAAAIAAYagAAAAEJMmJDpQ5SuNs71QcVA57IyHs1JrYVNl/4QBeWVdzf7KqVf4Xs1nH4npqeRexNu82g==", null, false, "c03c55fd-81cc-4286-a31f-9efdfa998752", false, "Admin@Admin.com" }
+                    { "7f9d962a-59f5-44d0-a73e-297314544d91", 0, "7406782a-739e-4739-8522-c8cf9c3c1022", "user8@test.com", true, false, null, "USER8@TEST.COM", "USER8@TEST.COM", "AQAAAAIAAYagAAAAEAYpQQUA84L6+E6IekDdsK+PiosekESsRbZLzb+2Hpyr+YGKGV2A7RxzZ0vVhfl2nA==", null, false, "2087cdde-49d9-4b44-85bf-2516940f5634", false, "user8@test.com" },
+                    { "87de95a5-c410-4c44-9cde-d76d58c20759", 0, "3ee287c3-cdd6-4737-b320-ce0e3b658bd4", "Admin@Admin.com", true, false, null, "ADMIN@ADMIN.COM", "ADMIN@ADMIN.COM", "AQAAAAIAAYagAAAAEN34JHgkUKkpwU/+I3Fn9UISiAiYrtn4vzsAAGRfyRh06ny+jzw4aDgb5skfigBsqQ==", null, false, "ebcd0de2-c644-41db-b0a6-d777df9a9fc2", false, "Admin@Admin.com" }
                 });
 
             migrationBuilder.InsertData(
